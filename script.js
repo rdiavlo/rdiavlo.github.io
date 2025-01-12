@@ -1,7 +1,7 @@
 console.log('Its working')
 
+// check if theme has been saved in local cache previously.
 let theme = localStorage.getItem('theme')
-
 if(theme == null){
 	setTheme('light')
 }else{
